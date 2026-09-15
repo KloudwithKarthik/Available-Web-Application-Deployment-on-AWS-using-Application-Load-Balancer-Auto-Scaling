@@ -12,7 +12,6 @@ The Auto Scaling Group manages the EC2 instances according to the configured cap
 
 EC2 User Data is used to automatically install and configure the Apache Web Server when an EC2 instance is launched.
 
-\---
 
 ## Architecture
 
@@ -24,7 +23,6 @@ EC2 User Data is used to automatically install and configure the Apache Web Serv
 
 The **Auto Scaling Group manages the EC2 instances** behind the Target Group.
 
-\---
 
 ## AWS Services \& Technologies Used
 
@@ -40,7 +38,6 @@ The **Auto Scaling Group manages the EC2 instances** behind the Target Group.
 * EC2 User Data
 * AWS Management Console
 
-\---
 
 ## Deployment Process
 
@@ -84,7 +81,6 @@ The Auto Scaling Group successfully launched and managed the required EC2 instan
 
 The Auto Scaling Group was associated with the Target Group so that instances launched by the ASG could be registered with the load balancer.
 
-\---
 
 ## EC2 User Data
 
@@ -110,7 +106,6 @@ The use of `$(hostname -f)` allows the web page to display the hostname of the E
 
 The complete script is also available in `scripts/user-data.sh`.
 
-\---
 
 ## How the Application Works
 
@@ -124,7 +119,6 @@ When a user accesses the Application Load Balancer DNS name:
 
 The Auto Scaling Group manages the EC2 instances behind the load balancer.
 
-\---
 
 ## Testing \& Validation
 
@@ -196,7 +190,6 @@ The instances managed by the Auto Scaling Group were verified as healthy and in 
 
 !\[Auto Scaling Instances](Screenshots/13-auto-scaling-instances.png)
 
-\---
 
 ## Validation Results
 
@@ -214,7 +207,6 @@ The instances managed by the Auto Scaling Group were verified as healthy and in 
 |ASG instance launches|Successful|
 |ASG-managed instances|Healthy / In Service|
 
-\---
 
 ## Key Features
 
@@ -228,7 +220,6 @@ The instances managed by the Auto Scaling Group were verified as healthy and in 
 * Health-based traffic routing
 * Automated EC2 web-server configuration
 
-\---
 
 ## Project Outcome
 
@@ -246,7 +237,6 @@ The deployment was validated through:
 
 This project provides practical hands-on experience with AWS compute, networking, load balancing, health checks, instance automation, and Auto Scaling.
 
-\---
 
 ## Project Structure
 
@@ -278,7 +268,6 @@ aws-alb-auto-scaling-web-app/
     └── 13-auto-scaling-instances.png
 ```
 
-\---
 
 ## Security
 
@@ -288,12 +277,9 @@ Private key files such as `.pem` files should never be committed to GitHub.
 
 The `.gitignore` file is used to help prevent sensitive files from being accidentally tracked by Git.
 
-\---
 
 ## Author
 
 **Karthikeya Puligadda**
 
 **Cloud \& DevOps Enthusiast**
-
-
