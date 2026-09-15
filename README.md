@@ -16,7 +16,7 @@ EC2 User Data is used to automatically install and configure the Apache Web Serv
 
 ## Architecture
 
-!\[AWS Architecture Diagram](architecture/architecture-diagram.png)
+!\[AWS Architecture Diagram](Architecture Diagram/Architecture diagram.jpg)
 
 ### Request Flow
 
@@ -295,4 +295,5 @@ The `.gitignore` file is used to help prevent sensitive files from being acciden
 **Karthikeya Puligadda**
 
 **Cloud \& DevOps Enthusiast**
+
 
