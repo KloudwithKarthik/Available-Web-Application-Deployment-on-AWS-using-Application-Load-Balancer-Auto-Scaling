@@ -15,7 +15,7 @@ EC2 User Data is used to automatically install and configure the Apache Web Serv
 
 ## Architecture
 
-![AWS Architecture Diagram](Architecture Diagram/Architecture diagram.jpg)
+![AWS Architecture Diagram](<Architecture Diagram/Architecture diagram.jpg>)
 
 ### Request Flow
 
