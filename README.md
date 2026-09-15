@@ -16,7 +16,7 @@ EC2 User Data is used to automatically install and configure the Apache Web Serv
 
 ## Architecture
 
-!\[AWS Architecture Diagram](Architecture Diagram/Architecture diagram.jpg)
+![AWS Architecture Diagram](<Architecture Diagram/Architecture diagram.jpg>)
 
 ### Request Flow
 
@@ -134,67 +134,67 @@ The deployment was validated using the AWS Management Console.
 
 The EC2 instances were successfully launched and their system status checks passed.
 
-!\[EC2 Instances](screenshots/01-ec2-instances.png)
+!\[EC2 Instances](Screenshots/01-ec2-instances.jpg)
 
 ### First EC2 Instance
 
-!\[First EC2 Instance](screenshots/02-first-instance.png)
+!\[First EC2 Instance](Screenshots/02-first-instance.jpg)
 
 ### First Instance Public IP
 
-!\[First Instance Public IP](screenshots/03-first-instance-public-ip.png)
+!\[First Instance Public IP](Screenshots/03-first-instance-public-ip.jpg)
 
 ### Second EC2 Instance
 
-!\[Second EC2 Instance](screenshots/04-second-instance.png)
+!\[Second EC2 Instance](Screenshots/04-second-instance.jpg)
 
 ### Second Instance Public IP
 
-!\[Second Instance Public IP](screenshots/05-second-instance-public-ip.png)
+!\[Second Instance Public IP](Screenshots/05-second-instance-public-ip.jpg)
 
 ### Application Load Balancer
 
 The Application Load Balancer was successfully created and verified as active.
 
-!\[Application Load Balancer](screenshots/06-load-balancer.png)
+!\[Application Load Balancer](Screenshots/06-load-balancer.jpg)
 
 ### ALB DNS Validation
 
 The application was successfully accessed through the Application Load Balancer DNS name.
 
-!\[ALB DNS](screenshots/07-load-balancer-dns.png)
+!\[ALB DNS](Screenshots/07-load-balancer-dns.jpg)
 
-!\[ALB DNS Validation](screenshots/08-load-balancer-dns-2.png)
+!\[ALB DNS Validation](Screenshots/08-load-balancer-dns-2.jpg)
 
 ### Target Group
 
 The Target Group was configured with the EC2 instances.
 
-!\[Target Groups](screenshots/09-target-groups.png)
+!\[Target Groups](Screenshots/09-target-groups.jpg)
 
 ### Target Group Health
 
 The registered targets were successfully reporting healthy status.
 
-!\[Healthy Targets](screenshots/10-target-groups-healthy.png)
+!\[Healthy Targets](Screenshots/10-target-groups-healthy.jpg)
 
 ### Auto Scaling Group
 
 The Auto Scaling Group successfully reached its configured desired capacity of **2 instances**.
 
-!\[Auto Scaling Group](screenshots/11-auto-scaling-group.png)
+!\[Auto Scaling Group](Screenshots/11-auto-scaling-group.jpg)
 
 ### Auto Scaling Activity
 
 The Auto Scaling Activity History was used to verify successful EC2 instance launches.
 
-!\[Auto Scaling Activity](screenshots/12-auto-scaling-activity.png)
+!\[Auto Scaling Activity](Screenshots/12-auto-scaling-activity.jpg)
 
 ### Auto Scaling Instances
 
 The instances managed by the Auto Scaling Group were verified as healthy and in service.
 
-!\[Auto Scaling Instances](screenshots/13-auto-scaling-instances.png)
+!\[Auto Scaling Instances](Screenshots/13-auto-scaling-instances.png)
 
 \---
 
